@@ -468,7 +468,7 @@ def first():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.aumri.aem', 465) as server:
+        with smtplib.SMTP_SSL('mail.aumri.ae', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
